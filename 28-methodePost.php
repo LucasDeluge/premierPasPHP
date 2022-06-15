@@ -28,7 +28,6 @@ couleur : {$_POST['couleur']}<br>
 <ul>";
 
 
-
 foreach ($_POST['pays'] as $pays) {
     echo "<li>$pays</li>";
 }
